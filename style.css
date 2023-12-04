@@ -1,0 +1,49 @@
+.general{
+    background-color: rgb(245, 245, 245);
+    height: 500vh;
+    width: 100%;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+.header{
+    /* position: fixed; */
+    /* background-color: rgb(245, 245, 245) */
+    /* background-color: white; */
+}
+
+
+.speaker{
+    transform: translate(1200px, -30px);
+    justify-content: space-between;
+    font-size: 30px;
+    color: blue;
+    
+}
+.sp{
+    transform: translate(-140px, -50px);
+    cursor: pointer;
+}
+.con{
+    transform: translate(-2px, -113px);
+    cursor: pointer;
+
+}
+.ven{
+    transform: translate(120px, -175px);
+    cursor: pointer;
+}
+.tickets{
+    transform: translate(230px, -235px);
+    cursor: pointer;
+}
+.conference{
+    background-color: #5576CF;
+    box-sizing: border-box;
+    border: 2px solid black;
+    height: 45vh;
+    width: 1300px;
+    transform: translate(210px, 0px);
+    border: none;
+    border-radius: 9px;
+}
